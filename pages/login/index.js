@@ -5,14 +5,12 @@ document.getElementById('login-form').addEventListener('submit', function(event)
     const password = document.getElementById('password').value;
 
     if (username === 'murilobauck' && password === '1234') {
-        document.getElementById('zoomBotao').addEventListener('click', function() {
             const container = document.querySelector('.container');
             container.classList.add('zoom-out');
         
             setTimeout(() => {
                 window.location.href = '../home/home.html';
             }, 300);
-            });
     } else {
         alert('Usuário ou senha incorretos');
     }});
