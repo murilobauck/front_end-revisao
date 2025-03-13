@@ -5,7 +5,7 @@ document.getElementById('login-form').addEventListener('submit', function(event)
     const password = document.getElementById('password').value;
 
     if (username === 'murilobauck' && password === '1234') {
-        window.location.href = 'home.html';
+        window.location.href = '../home/home.html';
     } else {
         alert('Usuário ou senha incorretos');
     }});
