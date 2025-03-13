@@ -1,0 +1,64 @@
+.hero {
+    background-image: url('img/banner_the_nf.png');
+    background-size: 100%;
+    height: 39vh;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.athletes-section, .products-section, .stories-section {
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.athlete-card, .product-card {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    border: 1px solid #CCCCCC;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.athlete-card img, .product-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.button {
+    background-color: #FF6600;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #CC5200;
+}
+
+#footerHome {
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+#footerHome a {
+    color: #FFFFFF;
+}
