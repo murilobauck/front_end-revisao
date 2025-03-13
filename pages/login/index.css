@@ -111,3 +111,18 @@ a:hover {
     font-weight: 600;
     
 }
+
+@keyframes zoomOut {
+    from {
+        transform: scale(1);
+        opacity: 1;
+    }
+    to {
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+
+.zoom-out {
+    animation: zoomOut 0.3s forwards;
+}
