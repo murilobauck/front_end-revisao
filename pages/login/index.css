@@ -8,7 +8,7 @@
 }
 
 body {
-    background: url(.pages/login/img/bg.jpg);
+    background: url(../login/img/thenf_bg.png);
     background-size: cover;
     background-position: center;
     display: flex;
