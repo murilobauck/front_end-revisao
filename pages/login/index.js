@@ -12,5 +12,5 @@ document.getElementById('login-form').addEventListener('submit', function(event)
                 window.location.href = '../home/home.html';
             }, 300);
     } else {
-        alert('Usuário ou senha incorretos');
+        loginErro.textContent = `Usuário ou senha inválidos!`;
     }});

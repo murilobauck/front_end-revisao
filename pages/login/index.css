@@ -126,3 +126,11 @@ a:hover {
 .zoom-out {
     animation: zoomOut 0.3s forwards;
 }
+
+#loginErro{
+    text-align: center;
+    color: rgba(255, 255, 255, .5);
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
