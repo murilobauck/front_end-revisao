@@ -14,11 +14,6 @@
     margin-bottom: 10px;
 }
 
-label {
-    font-size: 1.1rem;
-    margin-right: 10px;
-}
-
 select, button {
     padding: 10px 20px;
     font-size: 1rem;
@@ -28,17 +23,17 @@ select, button {
 }
 
 select {
-    background-color: #F0F0F0; /* Cinza Claro */
+    background-color: #F0F0F0; 
 }
 
 button {
-    background-color: #FF6600; /* Laranja Vibrante */
-    color: #FFFFFF; /* Branco */
+    background-color: #FF6600; 
+    color: #FFFFFF; 
     margin-top: 10px;
 }
 
 button:hover {
-    background-color: #CC5200; /* Laranja mais escuro */
+    background-color: #CC5200; 
 }
 
 #quiz-result, #route-result {
