@@ -1,0 +1,48 @@
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#quiz-questions {
+    margin-bottom: 20px;
+}
+
+#quiz-questions div {
+    margin-bottom: 10px;
+}
+
+label {
+    font-size: 1.1rem;
+    margin-right: 10px;
+}
+
+select, button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+select {
+    background-color: #F0F0F0; /* Cinza Claro */
+}
+
+button {
+    background-color: #FF6600; /* Laranja Vibrante */
+    color: #FFFFFF; /* Branco */
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #CC5200; /* Laranja mais escuro */
+}
+
+#quiz-result, #route-result {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}

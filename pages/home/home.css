@@ -36,33 +36,6 @@
     border-radius: 10px;
 }
 
-.button {
-    background-color: #FF6600;
-    color: #FFFFFF;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.button:hover {
-    background-color: #CC5200;
-}
-
-#footerHome {
-    background-color: #000000;
-    color: #FFFFFF;
-    text-align: center;
-    padding: 10px;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
-
-#footerHome a {
-    color: #FFFFFF;
-}
-
 .nome-atleta {
     font-size: 1.5rem;
     font-weight: bold;

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - The North Face</title>
+    <link rel="icon" sizes="16x16" href="https://cdn-retailhub.com/the-north-face/4657f6f5-2db5-445d-9377-fef0e9338303.webp">
+    <link rel="stylesheet" href="../global.css">
+    <link rel="stylesheet" href="experience.css">
+</head>
+<body>
+    <header>
+        <h1>The North Face Experience</h1>
+        <nav>
+            <ul>
+                <li class="linkPaginas"><a href="../home/home.html">Home</a></li>
+                <li class="linkPaginas"><a href="../Sobre/sobre_nos.html">Sobre nós</a></li>
+                <li class="linkPaginas"><a href="/experience_nf.html">Experience</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <!-- Quiz de Aventura -->
+        <section id="quiz-section">
+            <h2>Quiz de Aventura</h2>
+            <p>Responda ao quiz e descubra a aventura perfeita para você!</p>
+            <div id="quiz-questions">
+                <!-- As perguntas serão inseridas aqui via JavaScript -->
+            </div>
+            <button id="quiz-submit">Ver Resultado</button>
+            <div id="quiz-result"></div>
+        </section>
+
+        <!-- Gerador de Rotas -->
+        <section id="route-generator">
+            <h2>Gerador de Rotas</h2>
+            <p>Encontre a rota ideal com base no seu nível de experiência.</p>
+            <label for="experience-level">Seu nível de experiência:</label>
+            <select id="experience-level">
+                <option value="beginner">Iniciante</option>
+                <option value="intermediate">Intermediário</option>
+                <option value="advanced">Avançado</option>
+            </select>
+            <button id="generate-route">Gerar Rota</button>
+            <div id="route-result"></div>
+        </section>
+    </div>
+
+    <footer id="footerExperience">
+        <p>&copy; 2025 The North Face.</p>
+        <p>
+            <a href="#">Política de Privacidade</a> | 
+            <a href="#">Termos de Uso</a> | 
+            <a href="#">Contato</a>
+        </p>
+    </footer>
+    <script src="experience_nf.js"></script>
+</body>
+</html>
