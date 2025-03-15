@@ -14,3 +14,19 @@ document.getElementById('login-form').addEventListener('submit', function(event)
     } else {
         loginErro.textContent = `Usuário ou senha inválidos!`;
     }});
+
+document.getElementById('toggleSenha').addEventListener('click', function() {
+    var senhaInput = document.getElementById('password');
+    var icone = this;
+    
+    if (senhaInput.type === 'password') {
+        senhaInput.type = 'text';
+        icone.classList.remove('fa-eye-slash');
+        icone.classList.add('fa-eye');
+        
+    } else {
+        senhaInput.type = 'password';
+        icone.classList.remove('fa-eye');
+        icone.classList.add('fa-eye-slash');
+    }
+});

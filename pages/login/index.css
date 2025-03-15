@@ -58,6 +58,7 @@ body {
 }
 
 .caixa-input i {
+    color: #fff;
     position: absolute;
     top: 50%;
     right: 20px;
@@ -109,7 +110,6 @@ a:hover {
 
 .caixa-registre p a {
     font-weight: 600;
-    
 }
 
 @keyframes zoomOut {
@@ -133,4 +133,19 @@ a:hover {
     margin-top: 20px;
     font-size: 1.2rem;
     font-weight: bold;
+}
+
+#toggleSenha {
+    cursor: pointer;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+#toggleSenha:hover {
+    color: #b0b0b0; 
 }
