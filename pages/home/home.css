@@ -15,7 +15,8 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-.athletes-section, .campanha-section {
+.athletes-section,
+.campanha-section {
     padding: 20px;
     margin: 20px;
     text-align: center;

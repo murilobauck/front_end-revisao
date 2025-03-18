@@ -43,7 +43,7 @@
     padding: 20px;
     border: 1px solid #CCCCCC;
     border-radius: 10px;
-    background-color: #F0F0F0; 
+    background-color: #F0F0F0;
 }
 
 .value-card img {
@@ -53,8 +53,8 @@
 }
 
 .technology {
-    background-color: #006633; 
-    color: #FFFFFF; 
+    background-color: #006633;
+    color: #FFFFFF;
     padding: 40px 20px;
     text-align: center;
 }
